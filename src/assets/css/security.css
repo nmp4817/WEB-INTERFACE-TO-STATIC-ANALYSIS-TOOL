@@ -1,0 +1,137 @@
+body.signin-body, .welcome-body, .confirm-body {
+
+	/*background-image: url("../images/secure_logo.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+	margin: 5% 35% 5% 35%;
+	text-align: center;
+	background-color: #646464;
+	overflow: scroll;
+}
+
+body.signup-body {
+	margin: 5% 15% 5% 15%;
+	text-align: center;
+	background-color: #646464;
+	overflow: scroll;
+}
+
+h1 {
+	color: gray;
+	font-size: 60px;
+}
+
+header {
+	color: white;
+	text-align: center;
+}
+
+.welcome {
+	color:inherit;
+	font-size: 50px;
+}
+
+.welcome1 {
+	font-size: 40px;
+	color: inherit;
+}
+
+a.abutton {
+	text-decoration: none;
+	color: inherit;
+	margin: 30px;
+	font-size: 30px;
+    background: #4E9CAF;
+    padding:10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+a.home-link {
+	text-decoration: none;
+	color: #4E9CAF;
+	float: right;
+	padding: 0px 5px 0px 5px;
+	background-color: purple;
+	font-size: 30px;
+    font-weight: bold;
+}
+
+form#signin-form, #confirm-form {
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+div.signin-form-group label{
+	font-size: 30px;
+	color: gray;
+	padding: 10px 20px 10px 0px;
+	margin: 10px 0px 10px 0px;
+}
+div.signin-form-group input {
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 20px 10px 0px;
+}
+
+div.confirm-form-group label{
+	font-size: 30px;
+	color: gray;
+	padding: 10px 20px 10px 0px;
+	margin: 10px 0px 10px 0px;
+}
+div.confirm-form-group input {
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 20px 10px 0px;
+}
+
+form#signup-form {
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+div.signup-form-group label{
+	font-size: 25px;
+	color: gray;
+	display: inline-block;
+	text-align: right;
+	width: 200px;
+	/*float: left;*/
+	padding: 10px 20px 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+div.signup-form-group input {
+	font-size: 15px;
+	width: 300px;
+	display: inline-block;
+	float: right;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 10px 10px 10px;
+}
+
+#terms {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;    
+}
+
+label#label_terms {
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+button {
+	font-size: 30px;
+	color: #fff;
+	border-color: #3675c5;
+	border-radius: 12px;
+	background-color: #5c90d2;
+	padding: 10px 20px 10px 20px;
+	margin: 20px 0px 20px 0px;
+}
